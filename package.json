@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon --inspect ."
+  },
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-preset-esnext": "^1.1.3",
